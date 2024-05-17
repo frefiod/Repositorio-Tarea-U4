@@ -6,7 +6,7 @@ package depositogit;
 
 /**
  *
- * @author frefi
+ * @author Fran Cabrera
  */
 public class DepositoGit {
 
@@ -16,18 +16,18 @@ public class DepositoGit {
     public static void main(String[] args) {
         // TODO code application logic here
          CCuenta miCuenta; 
-    double saldoActual; 
+    double saldoActualizado; 
  
     miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0); 
-    saldoActual = miCuenta.estado(); 
-    System.out.println("El saldo actual es "+ saldoActual ); 
+    saldoActualizado = miCuenta.estado(); 
+    System.out.println("El saldo actual es "+ saldoActualizado ); 
  
     // Operaciones de ingreso y retiro     
      miCuenta.retirar(2300); 
     miCuenta.ingresar(685); 
    
-    saldoActual = miCuenta.estado(); 
-    System.out.println("El saldo actual es "+ saldoActual ); 
+    saldoActualizado = miCuenta.estado(); 
+    System.out.println("El saldo actual es "+ saldoActualizado ); 
     }
     
 }

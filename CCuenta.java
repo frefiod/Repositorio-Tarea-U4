@@ -6,7 +6,7 @@ package depositogit;
 
 /**
  *
- * @author frefi
+ * @author Fran Cabrera
  */
 public class CCuenta {
      String nombre; 
